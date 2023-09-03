@@ -10,7 +10,6 @@ const calcularPromedio = (numeros) => {
     numeros.forEach(numero => {
         sumaTotal += numero;
     });
-
     //for (let i = 0; i < numeros.length; i++) {
     //sumaTotal += numeros[i];
     //}
@@ -20,4 +19,4 @@ const calcularPromedio = (numeros) => {
 const listaNumeros = [1, 2, 3, 4, 5];
 const promedioNumeros = calcularPromedio(listaNumeros);
 
-console.log('Promedio:', promedioNumeros)
+console.log('Promedio:', promedioNumeros); // 3
