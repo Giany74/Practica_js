@@ -31,7 +31,7 @@ Nuestro cliente tiene un array de datos y nos a pedido que saquemos la siguiente
 información. El listado de los desarrolladores que tengan como habilidad “JavaScript” y el
 listado de los proyectos en el que sus desarrolladores trabajan.
 
-[index_ejercicio_3.html(https://github.com/Giany74/Practica_js/blob/main/index_ejercicio_3.html)
+[index_ejercicio_3.html](https://github.com/Giany74/Practica_js/blob/main/index_ejercicio_3.html)
 
 [ejercicio3.js](https://github.com/Giany74/Practica_js/blob/main/ejercicio3.js)
 
