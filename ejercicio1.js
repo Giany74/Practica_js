@@ -9,15 +9,24 @@ y un array de objetos el cual tenga un link a alguna red social con el nombre y 
 */
 
 const user_object = {
-    Nombre : 'Gianluca',
-    Apellidos: 'Pettenon',
+    nombre : 'Gianluca',
+    apellidos: 'Pettenon',
     themeBootcamp: ['Git-GitHub', 'html-css', 'JavaScript'],
-    ActiveSearch: true,
-    socialLinks: {
-        github: 'https://github.com/Giany74',
-        linkedin: 'https://www.linkedin.com/in/gianluca-pettenon-a4051a8a/',
-        instagram: 'https://www.instagram.com/gianluca.pettenon/',
-        behance: 'https://www.behance.net/gianlucapettenon',
-        facebook: 'https://www.facebook.com/gianluca.pettenon/'
-    }
+    activeSearch: true,
+    socialLinks: [
+        {name: 'github', link: 'https://github.com/Giany74'},
+        {name: 'linkedin', link: 'https://www.linkedin.com/in/gianluca-pettenon-a4051a8a/'},
+        {name: 'instagram', link: 'https://www.instagram.com/gianluca.pettenon/'},
+        {name: 'behance', link: 'https://www.behance.net/gianlucapettenon'},
+        {name: 'facebook',link: 'https://www.facebook.com/gianluca.pettenon/'}
+    ]
 };
+
+console.log('Nombre:', user_object.nombre);
+console.log('Apellidos:', user_object.apellidos);
+console.log('Temas del Bootcamp:', JSON.stringify(user_object.themeBootcamp));
+console.log('Busqueda activa:', user_object.activeSearch);
+console.log('Redes sociales:');
+user_object.socialLinks.forEach((elem) => {
+    console.log(elem.name + ': ' + elem.link);
+});
