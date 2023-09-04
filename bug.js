@@ -13,7 +13,8 @@ const calcularPromedio = (numeros) => {
     //for (let i = 0; i < numeros.length; i++) {
     //sumaTotal += numeros[i];
     //}
-    return sumaTotal / numeros.length;
+    const promedio = sumaTotal / numeros.length;
+    return promedio
 };
 const listaNumeros = [1, 2, 3, 4, 5];
 const promedioNumeros = calcularPromedio(listaNumeros);
