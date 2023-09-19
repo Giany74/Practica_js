@@ -43,14 +43,6 @@ y nos dice que está usando el id correcto el 1. Pero que siempre le da undefine
 pasado el código que tenemos que revisar y arreglar. Para este problema crear un archivo
 llamado bugAsync.js con la solución.
 
-**Proyecto Wimblecode (Opcional)**
+[index_ejercicio_4.html](https://github.com/Giany74/Practica_js/blob/main/index_ejercicio_4.html)
 
-
-Nos acaba de contratar Wimblecode para que desarrollemos un software que registre los
-partidos y el marcador de cada encuentro. Para poder desarrollar este proyecto, nuestro
-cliente y propietario de Wimblecode nos ha proporcionado las reglas de este deporte para
-desarrolladores, de manera que podamos tener claro lo que tendremos que crear.
-El torneo tiene un máximo y mínimo de 4 jugadores. “Alberto Casero”, “David Jiménez”,
-“Javier de Miguel”, “Eduardo Aguilar”.
-Estos jugadores juegan un play-off, donde si ganan un partido con su rival avanzan a la
-siguiente ronda. Ejemplo de una partida:
+[bugAsync.js](https://github.com/Giany74/Practica_js/blob/main/bugAsync.js)
